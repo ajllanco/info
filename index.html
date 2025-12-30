@@ -1,20 +1,180 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-  <script>
-    // Función que muestra un saludo
-    function saludar() {
-      alert("Ramoncito deja mi sandalia!");
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV Alexis José Llanco Flores</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
     }
-  </script>
-    <title>Hola mundo...</title>
+    .container {
+        max-width: 900px;
+        margin: 20px auto;
+        background: #fff;
+        padding: 30px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2, h3 {
+        margin: 0;
+        padding-bottom: 10px;
+        color: #2c3e50;
+    }
+    h2 {
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 5px;
+        margin-top: 30px;
+    }
+    .contact p {
+        margin: 5px 0;
+    }
+    .section {
+        margin-bottom: 20px;
+    }
+    .experience, .education, .achievements, .references {
+        margin-top: 10px;
+    }
+    .job, .edu, .achievement, .reference {
+        margin-bottom: 15px;
+    }
+    .job h3, .edu h3 {
+        margin-bottom: 5px;
+        color: #2980b9;
+    }
+    ul {
+        margin: 0;
+        padding-left: 20px;
+    }
+    a {
+        color: #3498db;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    @media(max-width: 600px){
+        .container {
+            padding: 15px;
+        }
+    }
+</style>
 </head>
 <body>
-    <h1>VALENTINA, mira este cambio hoy 21 de diembre del 2025</h1>
-        <h2>""Universo</h2>
-      <button onclick="saludar()">Haz clic para saludar</button>
+<div class="container">
+    <header>
+        <h1>Alexis José Llanco Flores</h1>
+        <h3>Analista Programador de Sistemas</h3>
+        <div class="contact">
+            <p>Lima</p>
+            <p>(+51) 970646340</p>
+            <p><a href="mailto:josealexis.llanco@gmail.com">josealexis.llanco@gmail.com</a></p>
+        </div>
+    </header>
+
+    <section class="section about">
+        <h2>SOBRE MÍ</h2>
+        <p>Soy una persona curiosa y resolutiva, entusiasta por la tecnología. Busco continuar desempeñándome en el Desarrollo de Software enfocado en Java y el Cloud Computing.</p>
+    </section>
+
+    <section class="section experience">
+        <h2>EXPERIENCIA</h2>
+
+        <div class="job">
+            <h3>ENTELGY, Lima - Analista Programador JAVA</h3>
+            <p><strong>Julio 2021 - Agosto 2025</strong></p>
+            <ul>
+                <li>Análisis del diseño e implementación de soluciones backend durante diversas etapas de su ciclo de vida.</li>
+                <li>Revisión de incidencias productivas y de ambientes previos.</li>
+                <li>Apoyo en la automatización del proceso de gobierno para los componentes banco.</li>
+                <li>Elaboración de PoC con JAVA, Oracle, Elastic.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>SAPIA, Lima - Analista Programador</h3>
+            <p><strong>Febrero 2020 - Mayo 2020</strong></p>
+            <ul>
+                <li>Desarrollo de Servicios Web REST y aplicativos Bacheros (.JAR), creación del proyecto, definición de clases, pruebas unitarias, empaquetado y seguimiento para certificación.</li>
+                <li>Tecnologías: JAVA 8, SPRING BOOT, SPRING MVC y PL/SQL.</li>
+                <li>Revisión de código fuente de aplicativos Legacy como Servicios Web SOAP, Aplicaciones OSB y Java MDB.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>EQUIFAX, Lima - Analista QA</h3>
+            <p><strong>Octubre 2018 - Abril 2019</strong></p>
+            <ul>
+                <li>Metodología Agile con Scrum; herramientas Jira y Confluence.</li>
+                <li>Entrega y desarrollo continuo (CI/CD) con Git, Go Pipelines, Jenkins, SonarQube.</li>
+                <li>Planificación de pruebas, preparación de ambientes, seguimiento al avance del desarrollo.</li>
+                <li>Pruebas estáticas, caja negra, blanca, performance, estrés y regresión; automatización con Java 8, Spring Boot, Selenium, PL/SQL.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>SERVEX, Lima - Analista Programador</h3>
+            <p><strong>Marzo 2018 - Octubre 2018</strong></p>
+            <ul>
+                <li>Desarrollo de páginas web y webservices REST con Java 8, SQL Server, Javascript, jQuery, AJAX, HTML, CSS, BootStrap, Materialize, Angular 8.</li>
+                <li>Extracción de información de un Gestor de Datos Maestro (MDM).</li>
+                <li>Participación en transformación digital de RRHH: reclutamiento, selección, evaluación y monitoreo de desempeño.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>CREDINKA, Lima - Analista Programador de Sistemas</h3>
+            <p><strong>Agosto 2016 - Agosto 2017</strong></p>
+            <ul>
+                <li>Elaboración de prototipos, diagramas de flujos, modelos conceptuales.</li>
+                <li>Desarrollo de páginas web y webservices REST con Java EE 8, C# .NET 4.5, SQL Server, MySQL, Git, jQuery, AJAX, HTML, CSS, Bootstrap.</li>
+                <li>Seguimiento de pases durante certificación y despliegue en producción.</li>
+                <li>Elaboración de Manuales de Usuario, Diccionario de Datos, Especificaciones de Caso de Uso.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>BITMAP, Lima - Programador</h3>
+            <p><strong>Enero 2016 - Marzo 2016</strong></p>
+            <ul>
+                <li>Apoyo en desarrollo de Servicio Web Core para plataforma tipo Uber con C#, MVC, SQL Server, Google Maps API, AJAX, JQuery, Bootstrap.</li>
+                <li>Desarrollo de mantenedores principales para páginas web de clientes.</li>
+                <li>Estudio del modelo de negocio, evaluación de recursos y definición de requisitos.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section education">
+        <h2>FORMACIÓN</h2>
+        <div class="edu">
+            <h3>CIBERTEC, Lima - Egresado en Computación e Informática</h3>
+            <p>2012 - 2016</p>
+        </div>
+    </section>
+
+    <section class="section achievements">
+        <h2>LOGROS</h2>
+        <ul>
+            <li>2016, TAXIPASS: Disponibilización de aplicativo móvil taxi para empresa.</li>
+            <li>2017, AYNI: Expansión del modelo de precalificación móvil a oficinas.</li>
+            <li>2018, OMNI: Implementación de indicadores de desempeño de agentes de cobranza.</li>
+            <li>2024, APX: Mejora en el proceso de despliegue de componentes backend a producción.</li>
+        </ul>
+    </section>
+
+    <section class="section references">
+        <h2>REFERENCIAS</h2>
+        <ul>
+            <li>SAPIA, Arturo Urquizo, Jefe de Proyecto, 997594803</li>
+            <li>EQUIFAX, Mayra Amasifuen, Coordinadora QA, 959175102</li>
+            <li>SERVEX, Airton Piro, Jefe de Desarrollo, 963850761</li>
+            <li>CREDINKA, Richard Perez, Supervisor de Proyecto, 992775601</li>
+        </ul>
+    </section>
+</div>
 </body>
 </html>
