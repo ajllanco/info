@@ -104,7 +104,7 @@
             padding-left: 20px;
         }
 
-        .experience-item { margin-bottom: 30px; page-break-inside: avoid; }
+        .experience-item { margin-bottom: 30px; }
 
         .exp-header {
             display: flex;
@@ -185,17 +185,9 @@
 
         .ref-name { font-weight: 700; color: var(--primary); }
 
-        /* SALTO DE PÁGINA FORZADO PARA PDF */
-        .page-break {
-            page-break-before: always;
-            padding-top: 40px;
-        }
-
         @media print {
             body { padding: 0; background: white; }
             .cv-container { box-shadow: none; max-width: 100%; padding: 40px; }
-            section { page-break-inside: auto; }
-            .experience-item { page-break-inside: avoid; }
         }
     </style>
 </head>
@@ -289,9 +281,6 @@
                 <span class="tech-tag">Java</span> <span class="tech-tag">PL/SQL</span> <span class="tech-tag">Selenium</span> <span class="tech-tag">Jenkins</span> <span class="tech-tag">SonarQube</span> <span class="tech-tag">Git</span> <span class="tech-tag">Scrum</span>
             </div>
         </div>
-
-        <!-- SALTO DE PÁGINA PARA LA SEGUNDA HOJA -->
-        <div class="page-break"></div>
 
         <div class="experience-item">
             <div class="exp-header">
